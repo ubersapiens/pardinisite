@@ -1,0 +1,23 @@
+.new_contact {
+  input, textarea{
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 0.5em;
+    font-size:1.5em;
+    width:100%;
+    margin:1em 0;
+  }
+  .col-lg-6 {
+    padding:0 1em 0 0;;
+  }
+  
+  .btn-contact {
+    margin-right: 1em;
+    font-size:1.8em;
+    color:white;
+    border-radius: 6px;
+    margin:0;
+    background-color:#37BC98;
+    border:none;
+  }
+
+}

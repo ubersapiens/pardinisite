@@ -1,0 +1,157 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  h1 {
+    font-size:5em;
+    font-weight:900;
+  }
+  h2 {
+    font-size:3em;
+    font-weight:200;
+    letter-spacing: 0.02em;
+  }
+  h3 {
+    font-size:2em;
+    font-weight:200;
+    letter-spacing: 0.02em;
+  }
+}
+
+#header-container {
+  background-color:#3BAFDA;
+  color:white;
+  padding-top: 8em;
+  padding-bottom: 8em;
+
+  button {
+    margin-right: 1em;
+    font-size:2em;
+  }
+
+  .btn-accept {
+    background: white;
+    color:#3BAFDA;
+    border-color:white;
+    a {
+      color:#3BAFDA;
+      &:hover {
+        color:#3BAFDA;
+      }
+    }
+  }
+
+  a:hover {
+    text-decoration:none;
+    background-color:transparent;
+  }
+
+  .btn-deny {
+    background: #3BAFDA;
+    color:white;
+    border-color:white;
+    a {
+      color:white;
+      &:hover {
+        color:white;
+      }
+    }
+  }
+}
+
+#mission-container {
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+#work-container {
+  margin-top:2em;
+  margin-bottom:2em;
+  img {
+    width:100%;
+  }
+}
+
+#contact-container {
+  padding:2em 0;
+  background-color:#656D78;
+  color:white;
+  h2 {
+    font-size:5em;
+    font-weight:900;
+  }
+  h3 {
+    font-size:3em;
+    font-weight:200;
+    letter-spacing: 0.02em;
+  }
+}
+
+#services-container {
+  padding: 2em 0;
+  background-color:#DA4453;
+  color:white;
+  h2 {
+    font-weight:700;
+  }
+  .col-lg-4 {
+    padding:2em;
+  }
+}
+
+#cta-container {
+  background-color:#37BC98;
+  color:white;
+}
+
+.navbar-static-top {
+  background: white;
+  border-color:white;
+  margin-top:1em;
+  a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size:1.8em;
+    font-weight:200;
+    letter-spacing: 0.02em;
+  }
+}
+
+footer {
+  margin-top:2em;
+  ul {
+    list-style:none;
+    padding:0;
+    li {
+      margin:1em 0;
+      a {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size:1.8em;
+        font-weight:200;
+        letter-spacing: 0.02em;
+        &:hover {
+          text-decoration:none;
+          background-color:transparent;
+        }
+      }
+    }
+    
+  }
+}

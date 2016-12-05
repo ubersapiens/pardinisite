@@ -1,0 +1,105 @@
+<div class="container-fluid" id="header-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Don't just dream it, build it</h1>
+        <h2>We create the web. Do you have an idea?</h2>
+        <a href="#contacts-form"><button type="button" class="btn btn-accept">Yes, I do</button></a>
+        <a href="#mission"><button type="button" class="btn btn-deny">Maybe</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<a id="mission"></a>
+<div class="container-fluid" id="mission-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>We are artists and hackers</h1>
+      </div>
+      <div class="col-lg-6">
+        <h2>Working in a web consulting company in Paris with clients in Western Europe and Latin America.</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="services-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Build a rocket. Go to space.</h1>
+        <h3>We are your one stop shop for powerful web platforms and award winning logos</h3>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-slack" aria-hidden="true"></i> Consulting</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-language" aria-hidden="true"></i> UI / UX Design</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-database" aria-hidden="true"></i> Architecture</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-connectdevelop" aria-hidden="true"></i> Marketing</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-area-chart" aria-hidden="true"></i> Analytics</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+      <div class="col-lg-4">
+        <h3><i class="fa fa-bitcoin" aria-hidden="true"></i> Monetisation</h3>
+        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. Lorem ipsum. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="work-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <%= image_tag('bureauspot.png') %>
+      </div>
+      <div class="col-lg-4">
+        <%= image_tag('ambicion.png') %>
+      </div>
+      <div class="col-lg-4">
+        <%= image_tag('coursparticuliers.png') %>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <%= image_tag('o_coffeeshop.jpg') %>
+      </div>
+      <div class="col-lg-4">
+        <%= image_tag('sportme.png') %>
+      </div>
+      <div class="col-lg-4">
+        <%= image_tag('businesspanama.png') %>
+      </div>
+    </div>
+  </div>
+</div>
+<a id="contacts-form"></a>
+<div class="container-fluid" id="contact-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Get in touch with us</h2>
+      </div>
+      <br>
+      <div class="col-lg-6">
+        <h3>Don't worry we won't bite. Send us details, questions or comments.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <%= render 'contacts/form' %>
+    </div>
+  </div>
+</div>
