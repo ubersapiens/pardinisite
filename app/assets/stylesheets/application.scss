@@ -37,6 +37,9 @@ body {
 }
 
 #header-container {
+  h1 {
+    word-break: break-all;
+  }
   background-color:#3BAFDA;
   color:white;
   padding-top: 8em;
@@ -82,6 +85,14 @@ body {
   margin-bottom:2em;
 }
 
+#stats-container {
+  margin-top:2em;
+  margin-bottom:2em;
+  p {
+    font-size:2em;
+  }
+}
+
 #work-container {
   margin-top:2em;
   margin-bottom:2em;
@@ -102,7 +113,7 @@ body {
 
 #contact-container {
   padding:2em 0;
-  background-color:#656D78;
+  background-color:#37BC98;
   color:white;
   h2 {
     font-size:4em;
@@ -118,6 +129,18 @@ body {
 #services-container {
   padding: 2em 0;
   background-color:#DA4453;
+  color:white;
+  h2 {
+    font-weight:700;
+  }
+  .col-lg-4 {
+    padding:2em;
+  }
+}
+
+#tech-container {
+  padding: 2em 0;
+  background-color:#607D8B;
   color:white;
   h2 {
     font-weight:700;
