@@ -137,6 +137,31 @@ p {
   .col-lg-4 {
     padding:2em;
   }
+  a {
+    color:white;
+    &:hover {
+      text-decoration:none;
+      background-color:transparent;
+      #tech-twitter {
+        color:#3498DB;
+      }
+      #tech-rails {
+        color:#D64541;
+      }
+      #tech-google {
+        color:#00B16A;
+      }
+      #tech-html5 {
+        color:#F39C12;
+      }
+      #tech-css3 {
+        color:#19B5FE;
+      }
+      #tech-github {
+        color:#34495E;
+      }
+    }
+  }
 }
 
 #cta-container {
@@ -164,9 +189,11 @@ footer {
     font-weight:200;
     letter-spacing: 0.02em;
     color: #3d3d3d;
+    margin-right:1em;
     &:hover {
       text-decoration:none;
       background-color:transparent;
+      color: #3BAFDA;
     }
   }
   ul {
