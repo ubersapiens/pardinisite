@@ -36,6 +36,11 @@ body {
   }
 }
 
+p {
+  font-size:1.15em;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
 #header-container {
   background-color:#3BAFDA;
   color:white;
@@ -97,20 +102,10 @@ body {
     width:100%;
   }
 
-  a {
-    text-decoration: underline;
-    color:#3BAFDA;
-    &:hover {
-      text-decoration:none;
-      background-color:transparent;
-    }
+}
 
-  }
-}
-p {
-  font-size:1.15em;
-  font-family: 'Helvetica Neue', sans-serif;
-}
+
+
 #contact-container {
   padding:2em 0;
   background-color:#37BC98;
