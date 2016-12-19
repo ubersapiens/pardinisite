@@ -17,9 +17,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 
+html, html * {
+  font-family: Roboto;
+}
 body {
-  font-family: 'Helvetica Neue', sans-serif;
   h1 {
     font-size:4em;
     font-weight:900;
@@ -38,7 +41,7 @@ body {
 
 p {
   font-size:1.15em;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #header-container {
@@ -175,7 +178,7 @@ p {
   border-color:white;
   margin-top:1em;
   li a {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:1.4em;
     font-weight:900;
     letter-spacing: 0.02em;
@@ -189,7 +192,7 @@ footer {
   margin-top:2em;
   margin-bottom:2em;
   a {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:1.8em;
     font-weight:200;
     letter-spacing: 0.02em;
