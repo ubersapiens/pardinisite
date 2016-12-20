@@ -89,24 +89,38 @@ p {
 #mission-container {
   padding:2em 0;
   color:white;
-  background:#3d3d3d;
+  background:#2980B9;
   img {
     border-radius:50%;
     margin-bottom:1em;
     height:200px;
   }
+  .fa {
+    color:#FFC153;
+  }
 }
 
 #stats-container {
-  margin-top:2em;
-  margin-bottom:2em;
+  padding: 2em 0;
+  background:#FFC153;
+  color:white;
   p {
     font-size:2em;
+    font-weight:200;
+    line-height:1em;
+    margin:0.5em 0 0.5em 0;
+  }
+  #digit {
+    font-size:2em;
+    font-weight:900;
   }
 }
 
 #blog-container {
   padding:2em 1em;
+  background:#E67E22;
+  color:white;
+
   ul {
     padding:0;
     list-style:none;
@@ -126,7 +140,7 @@ p {
   img {
     width:100%;
   }
-
+  background: #EEEEEE;
 }
 
 
@@ -159,42 +173,6 @@ p {
   }
 }
 
-#tech-container {
-  padding: 2em 0;
-  background-color:#607D8B;
-  color:white;
-  h2 {
-    font-weight:700;
-  }
-  .col-lg-4 {
-    padding:2em;
-  }
-  a {
-    color:white;
-    &:hover {
-      text-decoration:none;
-      background-color:transparent;
-      #tech-twitter {
-        color:#3498DB;
-      }
-      #tech-rails {
-        color:#D64541;
-      }
-      #tech-google {
-        color:#00B16A;
-      }
-      #tech-html5 {
-        color:#F39C12;
-      }
-      #tech-css3 {
-        color:#19B5FE;
-      }
-      #tech-github {
-        color:#34495E;
-      }
-    }
-  }
-}
 
 #cta-container {
   background-color:#37BC98;
