@@ -45,7 +45,7 @@ p {
 }
 
 #header-container {
-  background-color:#3BAFDA;
+  background-color:#03C9A9;
   color:white;
   padding-top: 8em;
   padding-bottom: 8em;
@@ -58,12 +58,12 @@ p {
 
   .btn-accept {
     background: white;
-    color:#3BAFDA;
+    color:#03C9A9;
     border-color:white;
     a {
-      color:#3BAFDA;
+      color:#03C9A9;
       &:hover {
-        color:#3BAFDA;
+        color:#03C9A9;
       }
     }
   }
@@ -74,7 +74,7 @@ p {
   }
 
   .btn-deny {
-    background: #3BAFDA;
+    background: #03C9A9;
     color:white;
     border-color:white;
     a {
@@ -97,6 +97,22 @@ p {
   margin-bottom:2em;
   p {
     font-size:2em;
+  }
+}
+
+#blog-container {
+  padding:2em 1em;
+  ul {
+    padding:0;
+    list-style:none;
+   li {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.5em;
+      font-weight: 200;
+      letter-spacing: 0.02em;
+      margin-top:1em;
+      line-height: 1.2em;
+    }
   }
 }
 
@@ -123,11 +139,18 @@ p {
   padding: 2em 0;
   background-color:#DA4453;
   color:white;
-  h2 {
+  p {
     font-weight:700;
+    font-size:2.5em;
+  }
+  .descriptor {
+    font-size:1.7em;
+    line-height:1.5em;
+    font-weight:200;
   }
   .col-lg-4 {
-    padding:2em;
+    padding:1.5em;
+    margin-top:2em;
   }
 }
 
@@ -182,26 +205,27 @@ p {
     font-size:1.4em;
     font-weight:900;
     letter-spacing: 0.02em;
-    border: 2px #3BAFDA solid;
+    border: 2px #03C9A9 solid;
     border-radius:6px;
-    color:#3BAFDA !important;
+    color:#03C9A9 !important;
   }
 }
 
 footer {
-  margin-top:2em;
-  margin-bottom:2em;
+  padding: 3em 0;
+  background-color:#3d3d3d;
+
   a {
     font-family: 'Roboto', sans-serif;
     font-size:1.8em;
     font-weight:200;
     letter-spacing: 0.02em;
-    color: #3d3d3d;
+    color: white;
     margin-right:1em;
     &:hover {
       text-decoration:none;
       background-color:transparent;
-      color: #3BAFDA;
+      color: #03C9A9;
     }
   }
   ul {
