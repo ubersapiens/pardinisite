@@ -3,4 +3,10 @@ class WelcomeController < ApplicationController
     @contact = Contact.new
   end
 
+  def work
+  end
+
+  def services
+  end
+
 end
