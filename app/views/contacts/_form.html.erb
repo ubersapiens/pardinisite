@@ -15,15 +15,20 @@
       <%= f.text_field :name, placeholder: 'Name' %>
     </div>
     <div class="field">
-      <%= f.text_field :email, placeholder: 'Email' %>
+      <%= f.text_field :email, placeholder: 'Email' %><br>
+      <p>* Describe your project or idea. We will take care of the rest.</p>
     </div>
-    <div class="actions">
-    <%= f.submit 'Send by pigeon', :class => 'btn-contact' %>
-  </div>
-  </div>
+    </div>
   <div class="col-lg-6">
     <div class="field">
       <%= f.text_area :project_description, cols: "20", rows: "8",placeholder: 'Message' %>
     </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="actions">
+      <%= f.submit 'Send by pigeon', :class => 'btn-contact' %>
+    </div>
+  </div>
+  <div class="col-lg-6">
   </div>
 <% end %>

@@ -1,5 +1,4 @@
 .new_contact {
-  margin-left:1em;
   input, textarea{
     font-family: 'Helvetica Neue', sans-serif;
     padding: 0.5em;
@@ -10,15 +9,19 @@
   .col-lg-6 {
     padding:0 1em 0 0;;
   }
+
+  p {
+    font-style:italic;
+  }
   
   .btn-contact {
     margin-right: 1em;
     font-size:1.8em;
-    color:white;
     border-radius: 6px;
     margin:0;
-    background-color:transparent;
-    border:2px white solid;
+    background: #03C9A9;
+    color:white;
+    border:none;
   }
 
 }
