@@ -5,8 +5,4 @@ class WelcomeController < ApplicationController
 
   def work
   end
-
-  def services
-  end
-
 end

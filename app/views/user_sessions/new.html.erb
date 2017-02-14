@@ -1,0 +1,11 @@
+<h1>Login</h1>
+
+<%= render 'form' %>
+
+<% if current_user %>
+  <%= link_to "Logout", :logout, method: :post %>
+<% else %>
+  <p>Please login.</p>
+<% end %>
+
+<%= link_to 'Back', user_sessions_path %>

@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  before_action :admin_only, except: [:new, :create]
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
 
   # GET /contacts

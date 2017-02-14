@@ -15,6 +15,7 @@ gem 'puma'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'rails_12factor'
+gem 'sorcery'
 
 group :development, :test do
   gem 'byebug'

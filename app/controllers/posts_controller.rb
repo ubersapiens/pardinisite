@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  before_action :admin_only, except: [:index, :show]
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   # GET /posts
