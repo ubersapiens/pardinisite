@@ -5,8 +5,22 @@ Rails.application.routes.draw do
   resources :posts
   resources :contacts
 
-  get '/work'  => 'welcome#work'
-  get '/admin'  => 'user_sessions#new'
+  namespace :admin do
+    get '', to: 'dashboard#index', as: '/'
+  end
+
+  namespace :work do
+    get '', to: 'projects#index', as: '/'
+    get '/ocoffeeshop', to: 'projects#ocoffeeshop'
+    get '/sportme', to: 'projects#sportme'
+    get '/pardinilaw', to: 'projects#pardinilaw'
+    get '/businesspanama', to: 'projects#businesspanama'
+    get '/coursparticuliers', to: 'projects#coursparticuliers'
+    get '/marcheducafe', to: 'projects#marcheducafe'
+    get '/ocpfinance', to: 'projects#ocpfinance'
+    get '/cineventure', to: 'projects#cineventure'
+    get '/bureauspot', to: 'projects#bureauspot'
+  end
 
   get 'login' => 'user_sessions#new', :as => :login
   post 'logout' => 'user_sessions#destroy', :as => :logout
