@@ -1,8 +1,12 @@
-#dark-work-container {
-  background-color:#1e1e1e;
+#work-container {
+  background-color:white;
   color:white;
   padding-top: 3em;
   padding-bottom: 3em;
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
   
   h3 {
     font-weight: 700;
