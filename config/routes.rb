@@ -26,4 +26,5 @@ Rails.application.routes.draw do
   post 'logout' => 'user_sessions#destroy', :as => :logout
   get 'blog' => 'posts#index'
   get 'contact' => 'contacts#new'
+  get 'about' => 'welcome#about'
 end
