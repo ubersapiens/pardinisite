@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     get '', to: 'projects#index', as: '/'
     get '/ocoffeeshop', to: 'projects#ocoffeeshop'
     get '/sportme', to: 'projects#sportme'
-    get '/pardinilaw', to: 'projects#pardinilaw'
+    get '/universnetworks', to: 'projects#universnetworks'
     get '/businesspanama', to: 'projects#businesspanama'
     get '/coursparticuliers', to: 'projects#coursparticuliers'
     get '/marcheducafe', to: 'projects#marcheducafe'
