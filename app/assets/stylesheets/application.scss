@@ -44,6 +44,17 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+#logo-image {
+  img {
+    max-height:100px;
+    margin-left:1em;
+  }
+
+  &:hover {
+    background:none;
+  }
+}
+
 #header-container {
   background-color:white;
   color:#1e1e1e;
@@ -192,6 +203,12 @@ footer {
     padding-bottom: 8em;
     button {
       width:auto;
+    }
+  }
+
+  #logo-image {
+    img {
+      margin-left:-1em;
     }
   }
 }
