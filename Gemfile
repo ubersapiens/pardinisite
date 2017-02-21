@@ -16,6 +16,7 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'rails_12factor'
 gem 'sorcery'
+gem 'friendly_id', '~> 5.1.0'
 
 group :development, :test do
   gem 'byebug'

@@ -12,14 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :placeholder => "Give your post a title"%>
   </div>
   <div class="field">
-    <%= f.label :body %><br>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, :placeholder => "Write about whatever you want", :cols => 20, :rows => 20%>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Go', :class => 'btn-contact' %>
   </div>
 <% end %>
