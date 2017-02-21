@@ -1,11 +1,15 @@
-<h1>Login</h1>
-
-<%= render 'form' %>
-
-<% if current_user %>
-  <%= link_to "Logout", :logout, method: :post %>
-<% else %>
-  <p>Please login.</p>
-<% end %>
-
-<%= link_to 'Back', user_sessions_path %>
+<div class="container-fluid" id="header-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <%= render 'form' %>
+        <br>
+        <% if current_user %>
+          <%= link_to "Logout", :logout, method: :post %>
+        <% else %>
+          <p>Please login.</p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
