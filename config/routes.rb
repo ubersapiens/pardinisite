@@ -9,6 +9,8 @@ Rails.application.routes.draw do
     get '', to: 'dashboard#index', as: '/'
   end
 
+  get '/change_locale/:locale', to: 'languages#change_locale', as: :change_locale
+
   namespace :work do
     get '', to: 'projects#index', as: '/'
     get '/ocoffeeshop', to: 'projects#ocoffeeshop'

@@ -17,6 +17,8 @@ gem 'font-awesome-rails'
 gem 'rails_12factor'
 gem 'sorcery'
 gem 'friendly_id', '~> 5.1.0'
+gem 'rails-i18n', '~> 4.0.0'
+gem 'globalize', '~> 5.0.0'
 
 group :development, :test do
   gem 'byebug'
