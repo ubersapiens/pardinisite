@@ -3,12 +3,15 @@
     <div class="row">
       <div class="col-lg-12">
         <h1><%= t('homepage.title') %></h1>
-        <h2>Applications . Websites . Ecommerce .</h2>
-        <%= link_to image_tag("flag-uk.png", :border => 0), change_locale_path(:en) %>
-        <%= link_to image_tag("flag-france.png", :border => 0), change_locale_path(:fr) %>
-        
+        <h2><%= t('homepage.title_caption') %></h2>
         <br>
-        <a href="/contact"><button type="button" class="btn btn-accept">Work with us</button></a>
+        <a href="/contact"><button type="button" class="btn btn-accept"><%= t('homepage.cta') %></button></a>
+        <br>
+        <br>
+        <p><%= t('homepage.language') %></p>
+        <%= link_to image_tag("flag-uk.png", :border => 0, :height => '30px'), change_locale_path(:en) %>
+        <%= link_to image_tag("flag-france.png", :border => 0, :height => '30px'), change_locale_path(:fr) %>
+        <%= link_to image_tag("flag-spain.png", :border => 0, :height => '30px'), change_locale_path(:es) %>
       </div>
     </div>
   </div>
